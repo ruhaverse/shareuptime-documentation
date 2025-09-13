@@ -1,0 +1,9 @@
+# Repository oluşturulduktan sonra çalıştırılacak komutlar:
+
+cd C:\Users\firat\CascadeProjects\PROJE-documantation
+& "C:\Program Files\Git\bin\git.exe" push -u origin main
+
+# Alternatif olarak, eğer remote yeniden ayarlanması gerekirse:
+& "C:\Program Files\Git\bin\git.exe" remote remove origin
+& "C:\Program Files\Git\bin\git.exe" remote add origin https://github.com/ruhaverse/PROJE-documantation.git
+& "C:\Program Files\Git\bin\git.exe" push -u origin main
